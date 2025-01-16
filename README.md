@@ -14,6 +14,7 @@
 
 ![Screenshot (62)](https://github.com/user-attachments/assets/02814362-1a3e-47aa-afe3-3294bdfb1750)
 
+In these past 5 screenshots, I manually configured The NIC private IP address in Azure to static so that it wouldn't change when the virtual machine restarts and it would stay in sync with the client remote desktop.
 
 ![Screenshot (63)](https://github.com/user-attachments/assets/3a63e41e-47a9-4205-8d8e-1ea1063d9967)
 
