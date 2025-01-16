@@ -20,13 +20,13 @@ In these past 5 screenshots, I manually configured The NIC private IP address in
 
 
 ![Screenshot (64)](https://github.com/user-attachments/assets/0d5b8194-12c2-41e8-8517-300e20287dc8)
-
+I Created 2 new organaztional units _EMPLOYEES and _ADMINS
 
 ![Screenshot (65)](https://github.com/user-attachments/assets/7965447b-7c16-443e-82b2-8def7ddc058d)
 
 
 ![Screenshot (67)](https://github.com/user-attachments/assets/f241b950-c6d1-4c54-9819-f73252f77267)
-
+I created a new user named Jane Doe
 
 ![Screenshot (68)](https://github.com/user-attachments/assets/4df82529-02c1-49d5-af28-49fb4fce2c82)
 
