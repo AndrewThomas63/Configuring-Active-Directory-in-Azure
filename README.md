@@ -29,7 +29,7 @@ I Created 2 new organaztional units _EMPLOYEES and _ADMINS
 I created a new user named Jane Doe
 
 ![Screenshot (68)](https://github.com/user-attachments/assets/4df82529-02c1-49d5-af28-49fb4fce2c82)
-
+I added her to the group Domain Admins to give full access with no restraints for when I login into the domain controller as the user
 
 ![Screenshot (69)](https://github.com/user-attachments/assets/5190640c-e3fc-4684-aaaa-f266b7f31aea)
 
