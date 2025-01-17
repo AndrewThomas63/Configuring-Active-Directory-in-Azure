@@ -16,6 +16,7 @@
 
 In these past 5 screenshots, I manually configured The NIC private IP address in Azure to static so that it wouldn't change when the virtual machine restarts and it would stay in sync with the client remote desktop.
 
+## Navagating Active Directory
 ![Screenshot (63)](https://github.com/user-attachments/assets/3a63e41e-47a9-4205-8d8e-1ea1063d9967)
 
 
@@ -92,6 +93,8 @@ I tried to log in, just to test out if I successfully did so.
 ![Screenshot (90)](https://github.com/user-attachments/assets/99dc2b39-7248-4c35-ba2b-53cffa357e14)
 I re-enabled the account.
 
+
+## Understanding DNS in Active Directory
 ![Screenshot (91)](https://github.com/user-attachments/assets/c627eaf0-10a0-43a7-b0a1-47ab5d127205)
 
 
