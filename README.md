@@ -74,9 +74,10 @@ I forced the policy to update just in case it didn't
 I tested the policy myself and locked out a different random user bib.box
 
 ![Screenshot (84)](https://github.com/user-attachments/assets/6a90e0af-5ba2-48e1-bcec-bb029e17e431)
-
+I changed the policy in Active Directory so the password never expired.
 
 ![Screenshot (86)](https://github.com/user-attachments/assets/282b6a96-e2e4-4ceb-b5e0-32b179bf6510)
+I set a new password and unlocked the users account 
 
 
 ![Screenshot (87)](https://github.com/user-attachments/assets/c3f5424f-b876-44df-92a2-64587c0dc775)
