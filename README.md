@@ -32,13 +32,14 @@ I created a new user named Jane Doe in Active Directory
 I added her to the group Domain Admins to give full access with no restraints for when I login into the domain controller as the user
 
 ![Screenshot (69)](https://github.com/user-attachments/assets/5190640c-e3fc-4684-aaaa-f266b7f31aea)
+I logged in as Jane Doe
 
 
 ![Screenshot (70)](https://github.com/user-attachments/assets/3bd98434-3014-42d1-a9b6-98d322e8456f)
-
+I joined Client-1 VM to the same domain as the Active Directory vm dc-1
 
 ![Screenshot (71)](https://github.com/user-attachments/assets/44798432-bf59-49ea-8fc4-4d9fd13822ef)
-
+Client 1 is now in the same domain as the Domain Controller and is now one of the computers in the domain.
 
 ![Screenshot (73)](https://github.com/user-attachments/assets/1137ea17-e2ce-4887-a6b3-a7d206a552e9)
 
