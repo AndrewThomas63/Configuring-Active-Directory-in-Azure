@@ -81,16 +81,16 @@ I set a new password and unlocked the users account
 
 
 ![Screenshot (87)](https://github.com/user-attachments/assets/c3f5424f-b876-44df-92a2-64587c0dc775)
-
+Password was successfully changed
 
 ![Screenshot (88)](https://github.com/user-attachments/assets/472d58d6-d931-4b65-a5c0-648849a8de28)
-
+I disabled bib.box just to teach myself how to do so.
 
 ![Screenshot (89)](https://github.com/user-attachments/assets/8940b7d1-9748-462e-8bf4-d09a435b1f4b)
-
+I tried to log in, just to test out if I successfully did so.
 
 ![Screenshot (90)](https://github.com/user-attachments/assets/99dc2b39-7248-4c35-ba2b-53cffa357e14)
-
+I re-enabled the account.
 
 ![Screenshot (91)](https://github.com/user-attachments/assets/c627eaf0-10a0-43a7-b0a1-47ab5d127205)
 
