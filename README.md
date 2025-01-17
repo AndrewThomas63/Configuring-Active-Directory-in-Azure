@@ -52,12 +52,13 @@ Here I double checked if Jane Doe had full access to the Domain Users Group.
 
 
 ![Screenshot (77)](https://github.com/user-attachments/assets/7c6cba63-207d-4bb8-81be-d7a7d1c983b8)
-
 I used a code in powershell to create random users in the employees folder in active directory.
-![Screenshot (78)](https://github.com/user-attachments/assets/57bc53b5-4db3-48d5-a260-55d9302cfa5e)
 
+![Screenshot (78)](https://github.com/user-attachments/assets/57bc53b5-4db3-48d5-a260-55d9302cfa5e)
+I selected a random user to log into client 1 with nuq.qic
 
 ![Screenshot (79)](https://github.com/user-attachments/assets/e2525310-e466-4069-bdc4-56a336c9d83e)
+
 
 
 ![Screenshot (80)](https://github.com/user-attachments/assets/f46a32c7-d621-4a55-b10b-f89b76d000be)
