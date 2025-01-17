@@ -95,9 +95,6 @@ I re-enabled the account.
 
 
 ## Understanding DNS in Active Directory
-![Screenshot (92)](https://github.com/user-attachments/assets/d4065b63-1b3a-4f0b-991e-7e35ee414022)
-
-
 ![Screenshot (93)](https://github.com/user-attachments/assets/2b886c5d-401f-427f-8d0c-9dafc3ed765c)
 
 
