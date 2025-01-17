@@ -71,7 +71,7 @@ I wanted to verify the policy was updated.
 I forced the policy to update just in case it didn't
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/418d5d11-2f50-49fd-a6b6-5957c8b2858d)
-
+I tested the policy myself and locked out a different random user bib.box
 
 ![Screenshot (84)](https://github.com/user-attachments/assets/6a90e0af-5ba2-48e1-bcec-bb029e17e431)
 
