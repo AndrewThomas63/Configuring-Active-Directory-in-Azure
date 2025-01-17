@@ -41,21 +41,19 @@ I joined Client-1 VM to the same domain as the Active Directory vm dc-1
 ![Screenshot (71)](https://github.com/user-attachments/assets/44798432-bf59-49ea-8fc4-4d9fd13822ef)
 Client 1 is now in the same domain as the Domain Controller and is now one of the computers in the domain.
 
-![Screenshot (73)](https://github.com/user-attachments/assets/1137ea17-e2ce-4887-a6b3-a7d206a552e9)
-
 
 ![Screenshot (74)](https://github.com/user-attachments/assets/2fa12f2b-fc76-462a-99c8-438a7a4f39ec)
 
 
 ![Screenshot (75)](https://github.com/user-attachments/assets/42840670-c5a6-4935-adf4-40bd00d6b939)
-
+Here I double checked if Jane Doe had full access to the Domain Users Group.
 
 ![Screenshot (76)](https://github.com/user-attachments/assets/d0220526-b8d7-4cfd-b1ae-65d0cf3d58fd)
 
 
 ![Screenshot (77)](https://github.com/user-attachments/assets/7c6cba63-207d-4bb8-81be-d7a7d1c983b8)
 
-
+I used a code in powershell to create random users in the employees folder in active directory.
 ![Screenshot (78)](https://github.com/user-attachments/assets/57bc53b5-4db3-48d5-a260-55d9302cfa5e)
 
 
