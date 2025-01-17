@@ -26,7 +26,7 @@ I Created 2 new organaztional units _EMPLOYEES and _ADMINS
 
 
 ![Screenshot (67)](https://github.com/user-attachments/assets/f241b950-c6d1-4c54-9819-f73252f77267)
-I created a new user named Jane Doe
+I created a new user named Jane Doe in Active Directory
 
 ![Screenshot (68)](https://github.com/user-attachments/assets/4df82529-02c1-49d5-af28-49fb4fce2c82)
 I added her to the group Domain Admins to give full access with no restraints for when I login into the domain controller as the user
