@@ -62,13 +62,13 @@ I selected a random user to log into client 1 with nuq.qic
 
 
 ![Screenshot (80)](https://github.com/user-attachments/assets/f46a32c7-d621-4a55-b10b-f89b76d000be)
-
+I updated the account lockout duration properties to being locked out for 30 minutes ater 5 attempts.
 
 ![Screenshot (81)](https://github.com/user-attachments/assets/ead10667-0dc0-4459-8798-7ace20cbe5a1)
-
+I wanted to verify the policy was updated.
 
 ![Screenshot (82)](https://github.com/user-attachments/assets/11751fff-98f7-446d-bc09-832884a6873a)
-
+I forced the policy to update just in case it didn't
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/418d5d11-2f50-49fd-a6b6-5957c8b2858d)
 
