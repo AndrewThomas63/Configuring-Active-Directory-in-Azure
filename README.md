@@ -96,74 +96,64 @@ I re-enabled the account.
 
 ## Understanding DNS in Active Directory
 ![Screenshot (92)](https://github.com/user-attachments/assets/b16c24d0-5cb5-4f68-9d0c-55efa1c9e92d)
-
+Here I looked up the hosts file in the Drivers folder, located in the Systems folder.
 ![Screenshot (93)](https://github.com/user-attachments/assets/2b886c5d-401f-427f-8d0c-9dafc3ed765c)
-
+Here I'm assigning the IP address to the name mainframe and creating a new host for it.
 
 ![Screenshot (94)](https://github.com/user-attachments/assets/83856d8b-1b65-42af-8d00-9ad74bf46619)
-
+You can see the new host mainframe in the DNS Manager list
 
 ![Screenshot (95)](https://github.com/user-attachments/assets/d8d3a36b-d884-4486-b66f-f125c4af7a8d)
-
+ I pinged the new host named mainframe and the ping was successful
 
 ![Screenshot (96)](https://github.com/user-attachments/assets/c6f9f647-e0d0-4004-b9fe-0ac46aa33f49)
+I changed the IP address record to 8.8.8.8
 
 
 ![Screenshot (97)](https://github.com/user-attachments/assets/9648882e-283f-43d3-b989-01ebe801e9c9)
-
+After changing it I noticed that the IP address still says 10.0.0.4
 
 ![Screenshot (98)](https://github.com/user-attachments/assets/7d72d5cf-ba6a-4f5b-b572-b73ab4600eb8)
-
+I noticed that when I pinged it is an administrator it showed the real IP address which was 8.8.8.8, this taught me that the Regular users have different access' than administrators, including seeing the real IP address.
 
 ![Screenshot (99)](https://github.com/user-attachments/assets/e8bf3dbb-449d-48a2-a246-a1cae3bd6fc3)
-
-
-![Screenshot (100)](https://github.com/user-attachments/assets/1f75818d-c7ab-47bf-8393-d5467eccfbf0)
+I created a new host named wengleski and assigned it to google.
 
 
 ![Screenshot (101)](https://github.com/user-attachments/assets/e2f45583-70d7-4f38-8578-219292e733a1)
+I pinged wengleski and it pinged google and the IP address assigned to google. I then used nslookup, the IP address showed up along with the name and google's IP address. 
 
-
+## Managing Users In Active Directory
 ![Screenshot (102)](https://github.com/user-attachments/assets/720a741a-eb87-4315-bfda-087883fa92ee)
+I looked  up a user from the empoloyee folder and I changed the password.
 
 
 ![Screenshot (103)](https://github.com/user-attachments/assets/ed77a490-a928-4105-989e-f0bf43222b93)
-
+I shared the folder Network Access with Domain Users
 
 ![Screenshot (104)](https://github.com/user-attachments/assets/8080a4fd-f0b4-44f3-b894-d357fe47a044)
-
+I was successfully able to share the folder with the Domain Users
 
 ![Screenshot (105)](https://github.com/user-attachments/assets/9fd46938-7a48-4032-a5eb-1c30e936db91)
+I'm showing that the address permissions have successfully changed. Now it displays Read/Write instead of just read
 
-
-![Screenshot (106)](https://github.com/user-attachments/assets/5ff3a451-7afe-4d47-a3a2-e6cb34af8e49)
-
-
-![Screenshot (107)](https://github.com/user-attachments/assets/338037f6-b045-4d27-9ba0-fd7942522773)
-
-
-![Screenshot (108)](https://github.com/user-attachments/assets/5e870b1f-9bd1-458b-9055-26cfc4c48ae9)
-
-
-![Screenshot (109)](https://github.com/user-attachments/assets/8c82d44a-d717-41c7-b604-07467ae26eff)
-
-
-![Screenshot (110)](https://github.com/user-attachments/assets/cc8bed6c-de9d-4afd-8ed7-7a3b6e711c48)
-
-
-![Screenshot (111)](https://github.com/user-attachments/assets/cc2ab5f9-c1e3-4559-9015-504ade653b43)
-
+![Screenshot (111)](https://github.com/user-attachments/assets/76dab9a6-af38-4f63-98bd-ca20a8764b37)
+Here I'm observing the group ACCOUNTANTS
 
 ![Screenshot (112)](https://github.com/user-attachments/assets/114e8dfa-4be4-4502-b573-729dce7fbf76)
 
 
 ![Screenshot (113)](https://github.com/user-attachments/assets/2aeeb788-3faa-4f32-a20c-a5e32fb837b5)
 
+![Screenshot (114)](https://github.com/user-attachments/assets/df69beb4-3930-4fc0-929c-b4373278c912)
+I Shared the folder with with Jane Doe, now it has read/write permissions
 
 ![Screenshot (115)](https://github.com/user-attachments/assets/4abe5f7d-615c-4679-91d0-7176968c9b0d)
-
+THe folder was successfully shared.
 
 ![Screenshot (116)](https://github.com/user-attachments/assets/294ffc9b-bafd-488d-9c4c-45ddac7fc213)
+I Added the user bad.qexi to the ACCOUNTANTS group so I can access the folder from the client-1 remote desktop where I logged in as bad.qexi
 
 
 ![Screenshot (117)](https://github.com/user-attachments/assets/82ba3b37-f94e-4b99-a516-5823d94f8ca3)
+Here I have full access to the folder from the client-1 Virtual Machine after I gave myself access through Active Directory.
