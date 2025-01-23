@@ -1,5 +1,11 @@
 # Configuring-Active-Directory-in-Azure
 
+# Environments and Technology used
+ - Microsoft Azure
+ - Remote Desktop
+ - Active Directory Domain Services
+ - Powershell
+
 ![Screenshot (58)](https://github.com/user-attachments/assets/50df7b90-8bc5-467b-b7d5-5dfad659448a)
 
 
