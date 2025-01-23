@@ -5,6 +5,9 @@
  - Remote Desktop
  - Active Directory Domain Services
  - Powershell
+# Operating Systems Used
+ - Windows Servers
+ - Windows 10
 
 ![Screenshot (58)](https://github.com/user-attachments/assets/50df7b90-8bc5-467b-b7d5-5dfad659448a)
 
