@@ -1,4 +1,10 @@
-# Configuring-Active-Directory-in-Azure
+# Configuring-Active-Directory-in-Azure Steps
+
+- I used Azure and created two Virtual Machines A Domain Controller and a Client 
+- I named them dc-1 and client-1. 
+- I Turned off the firewall to Configure
+- Change the DNS server to static to allow the two virtual machines to be on the same IP Address.
+- Change the client's IP Address to 10.0.0.4 so it is on the same network
 
 # Environments and Technology used
  - Microsoft Azure
