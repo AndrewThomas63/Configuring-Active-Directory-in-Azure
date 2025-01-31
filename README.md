@@ -1,4 +1,4 @@
-# Configuring-Active-Directory-in-Azure Steps
+# Configuring-Active-Directory-in-Azure Using Virtual Machines.
 
 - I used Azure and created two Virtual Machines A Domain Controller and a Client 
 - I named them dc-1 and client-1. 
@@ -15,6 +15,18 @@
  - Windows Servers
  - Windows 10
 
+## Disabling the firewall
+Disabling the Firewall for Active Directory Configuration
+During the setup of my Active Directory lab, I temporarily disabled the Windows Firewall to ensure proper communication between the virtual machines. This was necessary because:
+
+Network Discovery & Communication – The firewall can block essential protocols like DNS, LDAP, and Kerberos authentication, preventing the client from locating and joining the domain.
+
+Port Restrictions – Active Directory relies on multiple ports (e.g., 53 for DNS, 88 for Kerberos, 389 for LDAP), which may be blocked by default firewall rules. Disabling the firewall allowed me to verify that connectivity issues weren’t due to port restrictions.
+
+Simplified Troubleshooting – Temporarily turning off the firewall helped eliminate security policies as a potential issue, ensuring that the client and domain controller could communicate without interference.
+
+Initial Configuration Needs – Before applying custom firewall rules, I needed an unrestricted environment to properly join the client to the domain and test authentication.
+After successfully configuring Active Directory, I re-enabled the firewall and created rules to allow necessary services while maintaining security.
 ![Screenshot (58)](https://github.com/user-attachments/assets/50df7b90-8bc5-467b-b7d5-5dfad659448a)
 
 
@@ -28,8 +40,16 @@
 
 
 ![Screenshot (62)](https://github.com/user-attachments/assets/02814362-1a3e-47aa-afe3-3294bdfb1750)
+To simulate a real-world IT environment, I created two virtual machines on the same network to implement Active Directory. This setup is essential for the following reasons:
 
-In these past 5 screenshots, I manually configured The NIC private IP address in Azure to static so that it wouldn't change when the virtual machine restarts and it would stay in sync with the client remote desktop.
+Domain Communication – Active Directory relies on domain-based authentication, requiring all domain-joined machines to communicate with the Domain Controller (DC).
+
+Network Accessibility – Both machines must be on the same subnet to properly resolve DNS requests, authenticate users, and manage group policies.
+
+Testing and Troubleshooting – Keeping the VMs on the same network allows me to troubleshoot network configurations, permissions, and user management in a controlled environment.
+
+Realistic IT Practice – This setup mirrors enterprise IT environments where domain controllers, workstations, and other networked devices operate on the same network to facilitate centralized management.
+This lab enhances my understanding of Windows Server, Active Directory, and network administration.
 
 ## Navagating Active Directory
 ![Screenshot (63)](https://github.com/user-attachments/assets/3a63e41e-47a9-4205-8d8e-1ea1063d9967)
@@ -42,7 +62,7 @@ I Created 2 new organaztional units _EMPLOYEES and _ADMINS
 
 
 ![Screenshot (67)](https://github.com/user-attachments/assets/f241b950-c6d1-4c54-9819-f73252f77267)
-I created a new user named Jane Doe in Active Directory
+I created a new user named Jane Doe in Active Directory to be my main Domain Administrator.
 
 ![Screenshot (68)](https://github.com/user-attachments/assets/4df82529-02c1-49d5-af28-49fb4fce2c82)
 I added her to the group Domain Admins to give full access with no restraints for when I login into the domain controller as the user
