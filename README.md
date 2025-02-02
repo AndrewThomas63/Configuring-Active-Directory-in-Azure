@@ -14,19 +14,24 @@
 # Operating Systems Used
  - Windows Servers
  - Windows 10
+![Screenshot (152)](https://github.com/user-attachments/assets/89ce22f0-9d47-4e85-ad8d-8b5f7344cda9)
 
-## Disabling the firewall
-Disabling the Firewall for Active Directory Configuration
-During the setup of my Active Directory lab, I temporarily disabled the Windows Firewall to ensure proper communication between the virtual machines. This was necessary because:
+![Screenshot (153)](https://github.com/user-attachments/assets/ff6ea5c5-a816-4e1a-9dd1-01710462ca05)
 
-Network Discovery & Communication – The firewall can block essential protocols like DNS, LDAP, and Kerberos authentication, preventing the client from locating and joining the domain.
+![Screenshot (155)](https://github.com/user-attachments/assets/41393440-f963-4a13-b605-8e0f0526ca51)
 
-Port Restrictions – Active Directory relies on multiple ports (e.g., 53 for DNS, 88 for Kerberos, 389 for LDAP), which may be blocked by default firewall rules. Disabling the firewall allowed me to verify that connectivity issues weren’t due to port restrictions.
+![Screenshot (156)](https://github.com/user-attachments/assets/3cc9db22-3b97-475b-bf0d-47eebec13a6e)
 
-Simplified Troubleshooting – Temporarily turning off the firewall helped eliminate security policies as a potential issue, ensuring that the client and domain controller could communicate without interference.
+![Screenshot (157)](https://github.com/user-attachments/assets/d48e4312-5cc0-4bcd-b1c9-ea79080ac9a2)
 
-Initial Configuration Needs – Before applying custom firewall rules, I needed an unrestricted environment to properly join the client to the domain and test authentication.
-After successfully configuring Active Directory, I re-enabled the firewall and created rules to allow necessary services while maintaining security.
+![Screenshot (158)](https://github.com/user-attachments/assets/78d81ab8-f4b4-4db1-97cc-96b113047464)
+
+![Screenshot (159)](https://github.com/user-attachments/assets/cf8d9a8e-0cdd-433f-8902-b5197d0e37a9)
+
+![Screenshot (160)](https://github.com/user-attachments/assets/76fb8edb-6150-45bd-a090-001cd723c14b)
+
+![Screenshot (161)](https://github.com/user-attachments/assets/de3208ed-b375-4283-a8a6-b3c8e7f3767f)
+
 ![Screenshot (58)](https://github.com/user-attachments/assets/50df7b90-8bc5-467b-b7d5-5dfad659448a)
 
 
@@ -39,7 +44,55 @@ After successfully configuring Active Directory, I re-enabled the firewall and c
 ![Screenshot (61)](https://github.com/user-attachments/assets/445eeceb-90dd-408f-aa00-a3967c4af8aa)
 
 
-![Screenshot (62)](https://github.com/user-attachments/assets/02814362-1a3e-47aa-afe3-3294bdfb1750)
+![Screenshot (163)](https://github.com/user-attachments/assets/d63dd937-1e42-42a8-a437-00630e4db0fc)
+
+![Screenshot (164)](https://github.com/user-attachments/assets/7664a639-1e6e-4d1e-9c88-221f621e5da6)
+
+![Screenshot (165)](https://github.com/user-attachments/assets/6493800c-5119-4ce8-a108-5384ba3df980)
+
+![Screenshot (172)](https://github.com/user-attachments/assets/b1407e5a-f013-4e87-8bb6-cc97cd4baf67)
+
+![Screenshot (173)](https://github.com/user-attachments/assets/50e0559f-fc9c-46f5-bb9d-bef5fc6a7c6a)
+
+![Screenshot (174)](https://github.com/user-attachments/assets/32a15c79-ff7e-4bed-b18f-c37397f512ed)
+
+![Screenshot (175)](https://github.com/user-attachments/assets/14109b0c-1b9d-4f87-b600-ea0956ac7cb8)
+
+![Screenshot (176)](https://github.com/user-attachments/assets/af405da4-7c09-4d85-bcc4-5cfc62e0ab6f)
+
+![Screenshot (177)](https://github.com/user-attachments/assets/aef5eabc-131c-44a2-b530-f987518aed8c)
+
+![Screenshot (178)](https://github.com/user-attachments/assets/643b8689-ed0c-485d-bfb8-59df4703f2a1)
+
+![Screenshot (179)](https://github.com/user-attachments/assets/51ddacb8-20be-4112-ae78-9147f286a3d1)
+
+![Screenshot (180)](https://github.com/user-attachments/assets/a8f68d0b-65d3-47c7-b084-8fe52a55b306)
+
+![Screenshot (181)](https://github.com/user-attachments/assets/66ea9595-506c-44d8-ae07-5f94ebc2183d)
+
+![Screenshot (182)](https://github.com/user-attachments/assets/932f7644-1686-46bf-9050-7fa382ea5be9)
+
+![Screenshot (183)](https://github.com/user-attachments/assets/63b056f3-d417-4366-8e3d-0a1d48c7df7d)
+
+![Screenshot (184)](https://github.com/user-attachments/assets/104c9558-245b-4286-a1bf-4d901a768987)
+
+![Screenshot (185)](https://github.com/user-attachments/assets/b8e3acca-962f-4363-a6e9-ab6bedae9398)
+
+![Screenshot (186)](https://github.com/user-attachments/assets/6e7287cc-f2eb-42f7-acc7-d678451e55f5)
+
+![Screenshot (187)](https://github.com/user-attachments/assets/7064a608-23c2-4724-a303-aac248367950)
+
+![Screenshot (188)](https://github.com/user-attachments/assets/7f95b0c4-84aa-4853-be79-f00c1ef5249b)
+
+![Screenshot (189)](https://github.com/user-attachments/assets/d72a7758-6d26-4f05-a582-062e4c910493)
+
+![Screenshot (190)](https://github.com/user-attachments/assets/fdde7ec5-ba51-4953-9029-ff2efc66d4af)
+
+![Screenshot (191)](https://github.com/user-attachments/assets/a181c7eb-0ac9-484b-a3e8-6596d7111eb5)
+
+![Screenshot (192)](https://github.com/user-attachments/assets/86a60382-04dd-4391-8e12-8373a4576636)
+
+
 To simulate a real-world IT environment, I created two virtual machines on the same network to implement Active Directory. This setup is essential for the following reasons:
 
 Domain Communication – Active Directory relies on domain-based authentication, requiring all domain-joined machines to communicate with the Domain Controller (DC).
