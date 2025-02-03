@@ -14,50 +14,59 @@
 # Operating Systems Used
  - Windows Servers
  - Windows 10
+
+## Creating the Virtual Machines
 ![Screenshot (152)](https://github.com/user-attachments/assets/89ce22f0-9d47-4e85-ad8d-8b5f7344cda9)
+I created the resource group and named it active-directory-lab
 
 ![Screenshot (153)](https://github.com/user-attachments/assets/ff6ea5c5-a816-4e1a-9dd1-01710462ca05)
+I created a virtual network, put it in the same resource group, and named it Active-directory-vnet
 
 ![Screenshot (155)](https://github.com/user-attachments/assets/41393440-f963-4a13-b605-8e0f0526ca51)
+The Virtual Network was successfully deployed
 
 ![Screenshot (156)](https://github.com/user-attachments/assets/3cc9db22-3b97-475b-bf0d-47eebec13a6e)
 
 ![Screenshot (157)](https://github.com/user-attachments/assets/d48e4312-5cc0-4bcd-b1c9-ea79080ac9a2)
-
+I Successfully Delployed both windows servers, one with Windows Server so that Active Directory can be run and one with a regular Windows Desktop for the Client Server.
 ![Screenshot (158)](https://github.com/user-attachments/assets/78d81ab8-f4b4-4db1-97cc-96b113047464)
+I changed the IP address to static, so the private IP address doesn't change everytime I turn on the Virtual Machine.
 
 ![Screenshot (159)](https://github.com/user-attachments/assets/cf8d9a8e-0cdd-433f-8902-b5197d0e37a9)
-
-![Screenshot (160)](https://github.com/user-attachments/assets/76fb8edb-6150-45bd-a090-001cd723c14b)
-
-![Screenshot (161)](https://github.com/user-attachments/assets/de3208ed-b375-4283-a8a6-b3c8e7f3767f)
-
-![Screenshot (58)](https://github.com/user-attachments/assets/50df7b90-8bc5-467b-b7d5-5dfad659448a)
-
+I Used wf.msc so I could go straight to the windows defender to and turn off the firewall.
 
 ![Screenshot (59)](https://github.com/user-attachments/assets/c9c0daa1-9a87-4729-ab22-2314286a89de)
-
+The Windows Defender display showed up after using wf.msc
 
 ![Screenshot (60)](https://github.com/user-attachments/assets/b71eef45-b6a2-4c4c-8443-1c349711a24f)
-
+I Turned off the firewall
 
 ![Screenshot (61)](https://github.com/user-attachments/assets/445eeceb-90dd-408f-aa00-a3967c4af8aa)
+I disabled the firewall for the private IP address so that I can successfully run a ping command
 
+![Screenshot (161)](https://github.com/user-attachments/assets/de3208ed-b375-4283-a8a6-b3c8e7f3767f)
+I changed the dns server to the same private IP Address so that it is on the same network
 
 ![Screenshot (163)](https://github.com/user-attachments/assets/d63dd937-1e42-42a8-a437-00630e4db0fc)
+I was successfully able to run ping after turning the firewall off.
 
 ![Screenshot (164)](https://github.com/user-attachments/assets/7664a639-1e6e-4d1e-9c88-221f621e5da6)
+I used ipconfig /all to confirm that the client 1 server's private IP address was successfully changed.
 
 ![Screenshot (165)](https://github.com/user-attachments/assets/6493800c-5119-4ce8-a108-5384ba3df980)
+I went through the server roles to Install Active Directory
 
 ![Screenshot (172)](https://github.com/user-attachments/assets/b1407e5a-f013-4e87-8bb6-cc97cd4baf67)
+I set the root domain to mydomain.com
 
 ![Screenshot (173)](https://github.com/user-attachments/assets/50e0559f-fc9c-46f5-bb9d-bef5fc6a7c6a)
+I Had to remove certain server roles so the Domain Services could run successfully
 
 ![Screenshot (174)](https://github.com/user-attachments/assets/32a15c79-ff7e-4bed-b18f-c37397f512ed)
+I successfully removed the server roles, so Active directory can be run successfully.
 
 ![Screenshot (175)](https://github.com/user-attachments/assets/14109b0c-1b9d-4f87-b600-ea0956ac7cb8)
-
+Here I successfully Configured the server domain for Active Directory.
 ![Screenshot (176)](https://github.com/user-attachments/assets/af405da4-7c09-4d85-bcc4-5cfc62e0ab6f)
 
 ![Screenshot (177)](https://github.com/user-attachments/assets/aef5eabc-131c-44a2-b530-f987518aed8c)
