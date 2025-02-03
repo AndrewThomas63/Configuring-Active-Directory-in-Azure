@@ -68,39 +68,49 @@ I successfully removed the server roles, so Active directory can be run successf
 ![Screenshot (175)](https://github.com/user-attachments/assets/14109b0c-1b9d-4f87-b600-ea0956ac7cb8)
 Here I successfully Configured the server domain for Active Directory.
 ![Screenshot (176)](https://github.com/user-attachments/assets/af405da4-7c09-4d85-bcc4-5cfc62e0ab6f)
-
+I had to be signed out and restart the server so the Domain Controller settings can kick in
 ![Screenshot (177)](https://github.com/user-attachments/assets/aef5eabc-131c-44a2-b530-f987518aed8c)
+I signed in using the root domain
 
 ![Screenshot (178)](https://github.com/user-attachments/assets/643b8689-ed0c-485d-bfb8-59df4703f2a1)
+Active directory successfully installed and now I navigate through the users and computers
 
 ![Screenshot (179)](https://github.com/user-attachments/assets/51ddacb8-20be-4112-ae78-9147f286a3d1)
+I opened Active Directory and create new organizational units
 
 ![Screenshot (180)](https://github.com/user-attachments/assets/a8f68d0b-65d3-47c7-b084-8fe52a55b306)
-
+I created 2 new organizational units, _EMPLOYEES & _ADMINS
 ![Screenshot (181)](https://github.com/user-attachments/assets/66ea9595-506c-44d8-ae07-5f94ebc2183d)
+I go to the employees folder to create a new user
 
 ![Screenshot (182)](https://github.com/user-attachments/assets/932f7644-1686-46bf-9050-7fa382ea5be9)
+I create a new user named Jane Doe
 
 ![Screenshot (183)](https://github.com/user-attachments/assets/63b056f3-d417-4366-8e3d-0a1d48c7df7d)
+I created the password for Jane Doe
 
 ![Screenshot (184)](https://github.com/user-attachments/assets/104c9558-245b-4286-a1bf-4d901a768987)
-
+I successfully created the user
 ![Screenshot (185)](https://github.com/user-attachments/assets/b8e3acca-962f-4363-a6e9-ab6bedae9398)
-
+I checked the properties of the user Jane Doe
 ![Screenshot (186)](https://github.com/user-attachments/assets/6e7287cc-f2eb-42f7-acc7-d678451e55f5)
+Here I search for the group Domain Administrators
 
 ![Screenshot (187)](https://github.com/user-attachments/assets/7064a608-23c2-4724-a303-aac248367950)
+I added Jane Doe to Domain Administrators
 
 ![Screenshot (188)](https://github.com/user-attachments/assets/7f95b0c4-84aa-4853-be79-f00c1ef5249b)
+I opened System Properties to search for client 1
 
 ![Screenshot (189)](https://github.com/user-attachments/assets/d72a7758-6d26-4f05-a582-062e4c910493)
+I changed the domain for client-1 to mydomain.com and used jane doe's login to confirm client-1 being added to the domain mydomain.com
 
 ![Screenshot (190)](https://github.com/user-attachments/assets/fdde7ec5-ba51-4953-9029-ff2efc66d4af)
-
+I successfully changed the domain to mydomain.com
 ![Screenshot (191)](https://github.com/user-attachments/assets/a181c7eb-0ac9-484b-a3e8-6596d7111eb5)
-
+I had to restart the computer to finalize client-1 being on the domain
 ![Screenshot (192)](https://github.com/user-attachments/assets/86a60382-04dd-4391-8e12-8373a4576636)
-
+I checked in the Domain Controller to ensure client-1 was in the domain mydomain.com
 
 To simulate a real-world IT environment, I created two virtual machines on the same network to implement Active Directory. This setup is essential for the following reasons:
 
@@ -112,42 +122,6 @@ Testing and Troubleshooting – Keeping the VMs on the same network allows me to
 
 Realistic IT Practice – This setup mirrors enterprise IT environments where domain controllers, workstations, and other networked devices operate on the same network to facilitate centralized management.
 This lab enhances my understanding of Windows Server, Active Directory, and network administration.
-
-## Navagating Active Directory
-![Screenshot (63)](https://github.com/user-attachments/assets/3a63e41e-47a9-4205-8d8e-1ea1063d9967)
-
-
-![Screenshot (64)](https://github.com/user-attachments/assets/0d5b8194-12c2-41e8-8517-300e20287dc8)
-I Created 2 new organaztional units _EMPLOYEES and _ADMINS
-
-![Screenshot (65)](https://github.com/user-attachments/assets/7965447b-7c16-443e-82b2-8def7ddc058d)
-
-
-![Screenshot (67)](https://github.com/user-attachments/assets/f241b950-c6d1-4c54-9819-f73252f77267)
-I created a new user named Jane Doe in Active Directory to be my main Domain Administrator.
-
-![Screenshot (68)](https://github.com/user-attachments/assets/4df82529-02c1-49d5-af28-49fb4fce2c82)
-I added her to the group Domain Admins to give full access with no restraints for when I login into the domain controller as the user
-
-![Screenshot (69)](https://github.com/user-attachments/assets/5190640c-e3fc-4684-aaaa-f266b7f31aea)
-I logged in as Jane Doe
-
-
-![Screenshot (70)](https://github.com/user-attachments/assets/3bd98434-3014-42d1-a9b6-98d322e8456f)
-I joined Client-1 VM to the same domain as the Active Directory vm dc-1
-
-![Screenshot (71)](https://github.com/user-attachments/assets/44798432-bf59-49ea-8fc4-4d9fd13822ef)
-Client 1 is now in the same domain as the Domain Controller and is now one of the computers in the domain.
-
-
-![Screenshot (74)](https://github.com/user-attachments/assets/2fa12f2b-fc76-462a-99c8-438a7a4f39ec)
-
-
-![Screenshot (75)](https://github.com/user-attachments/assets/42840670-c5a6-4935-adf4-40bd00d6b939)
-Here I double checked if Jane Doe had full access to the Domain Users Group.
-
-![Screenshot (76)](https://github.com/user-attachments/assets/d0220526-b8d7-4cfd-b1ae-65d0cf3d58fd)
-
 
 ![Screenshot (77)](https://github.com/user-attachments/assets/7c6cba63-207d-4bb8-81be-d7a7d1c983b8)
 I used a code in powershell to create random users in the employees folder in active directory.
