@@ -132,7 +132,7 @@ I selected a random user to log into client 1 with nuq.qic
 ![Screenshot (79)](https://github.com/user-attachments/assets/e2525310-e466-4069-bdc4-56a336c9d83e)
 
 
-
+## Group Policy in Active Directory
 ![Screenshot (80)](https://github.com/user-attachments/assets/f46a32c7-d621-4a55-b10b-f89b76d000be)
 I updated the account lockout duration properties to being locked out for 30 minutes after 5 attempts.
 
